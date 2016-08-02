@@ -1,0 +1,19 @@
+header {
+	background: black;
+	max-width: 800px;
+	margin: auto;
+}
+header h1 {
+	font-size: 96px;
+	text-align: center;
+	color: lightgrey;
+}
+body {
+	background: #232323;
+}
+@media(max-width: 600px) {
+	header h1 {
+		font-size: 48px;
+	}
+}
+
